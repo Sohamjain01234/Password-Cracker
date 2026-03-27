@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary Attack</title>
+
+    <style>
+        .algo-buttons,.input-fields, .questions { 
+            margin: 10px; 
+        }
+
+        .questions > div { 
+            margin-top: 5px; 
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>
+        Dictionary Attack
+    </h1>
+    
+    <div class="questions"> 
+        
+        <div> <label>Target Name: </label><input type="text"></div>
+        <div> <label>Birthday: </label><input type="date"></div>
+        <div> <label>Pet Name: </label><input type="text"></div>
+        <div> <label>Wife's Name: </label><input type="text"></div>
+        <div> <label>Wife's Birthday: </label><input type="date"></div>
+        <div> <label>First Child's Name: </label><input type="text"></div>
+        <div> <label>First Child's Birthday: </label><input type="date"></div>
+        <div> <label>Second Child's Name: </label><input type="text"></div>
+        <div> <label>Second Child's Birthday: </label><input type="date"></div>
+        <div> <label>Favorite Color: </label><input type="text"></div> 
+        <div> <label>Favorite Place: </label><input type="text"></div>        
+        <div> <label>Primary School: </label><input type="text"></div>        
+        <div> <label>Primary School With Possible Abbreviations: </label><input type="text"></div> 
+        <div> <label>Year of admissions: </label><input type="text"></div> 
+        <div> <label>Year of graduation: </label><input type="text"></div> 
+        <div> <label>Secondary School: </label><input type="text"></div>        
+        <div> <label>Secondary School With Possible Abbreviations: </label><input type="text"></div> 
+        <div> <label>Year of admissions: </label><input type="text"></div> 
+        <div> <label>Year of graduation: </label><input type="text"></div> 
+        <div> <label>High School: </label><input type="text"></div>        
+        <div> <label>High School With Possible Abbreviations: </label><input type="text"></div> 
+        <div> <label>Year of admissions: </label><input type="text"></div> 
+        <div> <label>Year of graduation: </label><input type="text"></div> 
+        <div> <label>Name of Current Company: </label><input type="text"></div> 
+        <div> <label>Date of Joining: </label><input type="date"></div> 
+        <div> <label>Position at the company: </label><input type="text"></div>  
+    </div>
+
+    <div class="algo-buttons">
+        <button class="button" id="md5">MD5</button>
+        <button class="button" id="sha1">SHA-1</button>
+        <button class="button" id="sha256">SHA-256</button>
+        <button class="button" id="sha512">SHA-512</button> 
+    </div>
+
+    <div class="input-fields">
+        <input type="text" id="password-input" placeholder="Enter password to hash">
+        <button class="button" id="start-attack-button">Start Attack!</button>
+    </div> 
+
+</body>
+</html>
